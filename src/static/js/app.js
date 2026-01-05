@@ -4,6 +4,9 @@ function App() {
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1 className="text-center mt-4 mb-4" style={{ fontSize: '2.5rem', color: '#2c3e50', fontWeight: 'bold' }}>
+                        Eishin Morishita
+                    </h1>
                     <TodoListCard />
                 </Col>
             </Row>
